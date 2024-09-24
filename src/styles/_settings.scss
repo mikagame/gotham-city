@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+  
+  /* Works on Chrome, Edge, and Safari */
+  .on::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 80px;
+   
+  }
+  
+  .on::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 80px;
+  }
+  
+  .on::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 80px;
+    border: 2px solid orange;
+   
+  }

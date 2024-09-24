@@ -1,0 +1,54 @@
+main {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    margin: auto;
+    i {
+        color: #FFDD21;
+        font-size: 80px;
+        cursor: pointer;
+    }
+}
+#hero {
+    display: flex;
+   // justify-content: center;
+   margin: auto;
+    //padding: 90px ;
+    overflow: hidden;
+    width: 400px;
+   // border: 1px solid white;
+  .card {
+   // width: 500px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    height: 600px;
+    display: flex;
+    margin: 0 150px 0 150px;  
+    transform: translateX(-140px);  
+   // border: 1px solid wheat;
+  }
+  h3 {
+    margin: 0;
+  }
+  img {
+    width: 350px;
+    object-fit:  cover;
+    border-radius: 20px;
+  }
+
+  .num {
+    width: 60px;
+    border: 1px solid white;
+  }
+
+  .testUseeffect {
+    color: white;
+  }
+
+
+  
+
+    
+   
+}

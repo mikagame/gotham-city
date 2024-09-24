@@ -1,0 +1,180 @@
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  // padding: 10px 0 10px 0;
+    background-color: rgba(Black, 1);
+    border-bottom: 2px solid #FFDD21;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 998;
+ 
+    .search {
+       position: relative;
+       left: 20px;
+   width: 300px;
+  // padding: 20px;
+   display: flex;
+   align-items: center;
+  
+      i {
+     
+          color: white;
+          font-size: 18px;
+          margin-right: 10px;
+          cursor: pointer;
+          z-index: 999;
+        }
+
+        .searchOn {
+          display: flex;
+          align-items: center;
+          transition: 0.2s;
+          transform-origin: left;
+          transform: scaleX(1);
+          position: relative;
+          right: 40px;
+       input {
+          border: none;
+          padding: 8px;
+          border-radius: 10px;
+          background-color: rgba(155, 159, 165, 0.4);
+          padding-left: 40px;
+    
+       }
+     
+        
+         
+        }
+         .searchOff {
+          display: flex;
+          align-items: center;
+          transition: 0.5s;
+          transform-origin: left;
+          transform: scaleX(1);
+          position: relative;
+          right: 40px;
+          transition: 0.2s;
+          transform-origin: left;
+         transform: scaleX(0);
+         input {
+          border: none;
+          padding: 8px;
+          border-radius: 10px;
+  
+          background-color: rgb(155, 159, 165);  
+       }
+     
+        }
+
+    }
+  
+
+    img {
+        width: 50px;
+        height: 50px;
+      //  border-radius: 100%;
+      //  border: 2px solid #FFDD21;
+    }
+    a {
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+        font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border-top: 2px solid transparent;
+  &:hover {
+    color: #FFDD21;
+    border-top: 2px solid#FFDD21;
+  }
+    }
+}
+
+.nav-active {
+  color: #FFDD21;
+    border-top: 2px solid #FFDD21;
+}
+
+@media screen and (max-width: 1200px) {
+  nav {
+    padding: 20px;
+    justify-content: flex-start;
+    width: 60px;
+    border-right: 2px solid #FFDD21;
+    border-bottom-right-radius: 10px;
+    i {
+      color:white;
+      font-size: 25px;
+      cursor: pointer;
+     
+    }
+    #menuTel {
+      cursor: pointer;
+      animation: 5s logoMenu  ease-in-out infinite;
+      border: 2px solid alternate #FFDD21;
+      
+    }
+  }
+
+  @keyframes logoMenu {
+    0% {
+      
+        transform: rotate(0);
+    }
+   
+    40% {
+     
+      transform: rotate(0);
+  }
+    50% {
+    
+    
+      transform: rotate(360deg);
+    }
+  
+    90% {
+      
+      transform: rotate(360deg);
+    }
+
+    100%{
+       
+        transform: rotate(0deg);
+    }
+  }
+  .navtel {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+    border-bottom-right-radius: 10px;
+
+    #close-menu {
+      color: red;
+    }
+    a {
+      padding: 15px 0 15px 0;
+      border: none;
+      &:hover {
+        border: none;
+      }
+    }
+    .search {
+      left: 0;
+    }
+  }
+  nav {
+     img {
+        border-radius: 100%;
+        border: 2px solid #FFDD21;
+    
+    }
+  }
+   
+  }

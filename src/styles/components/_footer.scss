@@ -1,0 +1,47 @@
+footer {
+    background: black;
+    height: 150px;
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    .copyright {
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+        display: flex;
+        align-items: center;
+        i {
+            margin: 0 ;
+            font-size: 14px;
+            color: #FFDD21;
+        }
+        p {
+            font-size:14px;
+        color: #FFDD21;
+        margin-left: 10px;
+        }
+      
+       
+    }
+
+    h1 {
+       
+        font-family: "Black Han Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      font-size:20px;
+        color: #FFDD21;
+    }
+
+    i {
+        color: white;
+        margin: 0 10px 0 10px;
+        font-size: 20px;
+       cursor: pointer;
+        &:hover {
+            color: #21aeff;
+        }
+    }
+}
