@@ -2,12 +2,11 @@
     position: fixed;
     top: 0;
     z-index: -1;
-    //height: 1200px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    //opacity: 0.8;
+   
     filter: brightness(0.6);
     img {
         object-fit: contain;
