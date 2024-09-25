@@ -46,7 +46,7 @@ const Home = () => {
           <div className="text-call">
             <div className="image-contain">
               <img src={arrayHero[i].src} alt="" />
-              <p>
+              <p id="bottom-image">
                 Pour joindre {arrayHero[i].name}
                 <br />
                 <div id="phone">
