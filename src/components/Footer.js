@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
       <div className="copyright">
         <i class="fa-regular fa-copyright"></i>{" "}
-        <p>2024 Gotham City. Tous droits réservés.</p>
+        <p id="pfooter">2024 Gotham City. Tous droits réservés.</p>
       </div>
     </footer>
   );
